@@ -39,7 +39,7 @@ int main()
 	} else if ( operation == "div" )
 	{
 		result = divide( num1, num2 );
-		std::cout << "THE RESULT OF " << num1 << " ÷ " << num2 << " = " << result << std::endl;
+		std::cout << "THE RESULT OF " << num1 << " / " << num2 << " = " << result << std::endl;
 	} else {
 		// if wrong operation is entered
 		std::cout << "This operation is not supported." << std::endl;
