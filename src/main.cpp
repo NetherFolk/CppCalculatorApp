@@ -28,19 +28,24 @@ int main()
 	{
 		result = add( num1, num2);
 		std::cout << "THE RESULT OF " << num1 << " + " << num2 << " = " << result << std::endl;
-	} else if ( operation == "sub" )
+	}
+	else if ( operation == "sub" )
 	{
 		result = sub( num1, num2 );
 		std::cout << "THE RESULT OF " << num1 << " - " << num2 << " = " << result << std::endl;
-	} else if ( operation == "mul" )
+	}
+	else if ( operation == "mul" )
 	{
 		result = mul( num1, num2 );
 		std::cout << "THE RESULT OF " << num1 << " x " << num2 << " = " << result << std::endl;
-	} else if ( operation == "div" )
+	}
+	else if ( operation == "div" )
 	{
 		result = divide( num1, num2 );
 		std::cout << "THE RESULT OF " << num1 << " / " << num2 << " = " << result << std::endl;
-	} else {
+	}
+	else
+	{
 		// if wrong operation is entered
 		std::cout << "This operation is not supported." << std::endl;
 		system("pause");
