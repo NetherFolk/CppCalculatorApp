@@ -13,6 +13,7 @@ int main()
 	int num2;
 	std::string operation;
 	int result;
+	char divSign = 246;
 
 	// getting the inputs
 	std::cout << "ENTER THE FIRST NUMBER: ";
@@ -42,7 +43,7 @@ int main()
 	else if ( operation == "div" )
 	{
 		result = divide( num1, num2 );
-		std::cout << "THE RESULT OF " << num1 << " / " << num2 << " = " << result << std::endl;
+		std::cout << "THE RESULT OF " << num1 << " " << divSign << " " << num2 << " = " << result << std::endl;
 	}
 	else
 	{
